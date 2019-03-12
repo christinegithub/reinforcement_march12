@@ -6,7 +6,6 @@ meetings = [
 ]
 
 meeting = 0
-# event = 0
 
 while meeting < len(meetings):
     print(meetings[meeting]['city'])
@@ -17,8 +16,6 @@ while meeting < len(meetings):
         event += 1
     meeting += 1
     print('')
-
-
 
 
 
